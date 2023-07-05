@@ -1,0 +1,19 @@
+<html>
+    <head>
+        <style>
+        </style>
+        <link rel="stylesheet" href="/static/styles.css" />
+    </head>
+    <body>
+        <h1>
+            {{.Title}}
+        </h1>
+        <ul>
+            {{range .TodoList}}
+                <li>
+                    {{.Title}}
+                </li>
+            {{end}}
+        </ul>        
+    </body>
+</html>
